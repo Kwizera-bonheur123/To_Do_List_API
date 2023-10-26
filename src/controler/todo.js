@@ -54,6 +54,8 @@ export const selectTasks = async (req,res) => {
     }
 }
 
+
+//Update task
 export const updateTask = async (req,res) => {
     try{
         const {id} = req.params;
