@@ -54,7 +54,7 @@ app.use("/", (req,res)=>{
     res.status(200).json({
         status: "Success",
         author: "k.dot",
-        message: "hello you are welcomed "
+        message: "hello you are welcomed"
     })
 
 })
