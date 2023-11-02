@@ -7,7 +7,11 @@ import taskRoute from './Routes.js/taskRoutes';
 import swaggerJSDoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 
+
+
 const app = express();
+
+//dotenv configurations
 dotenv.config();
 
 const options = {
