@@ -83,7 +83,7 @@
  *                   example: "200"
  *                 message:
  *                   type: string
- *                   example: "post post deleted successfully"
+ *                   example: "post deleted successfully"
  *                 data:
  *                   type: object
  *                   properties:

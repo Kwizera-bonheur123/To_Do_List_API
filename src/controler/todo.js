@@ -107,7 +107,7 @@ export const deleteTask = async(req,res)=>{
         })
     }
     const deletedTask = await tasks.findByIdAndDelete(id);
-    return res.status(404).json({
+    return res.status(200).json({
         status: 200,
         message: "Data deleted successfully"
     })
